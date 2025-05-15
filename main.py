@@ -364,8 +364,7 @@ def plot_pie_chart(books_data: List[Dict[str, str]], output_file: str = "books_b
     plt.show()
 
 
-def plot_price_histogram(books_data: List[Dict[str, str]],
-                         output_file: str = "average_price_by_category_histogram.png") -> None:
+def plot_price_histogram(books_data: List[Dict[str, str]],output_file: str = "average_price_by_category_histogram.png") -> None:
     """Génère un histogramme montrant les prix moyens des livres par catégorie.
     Args:
         books_data: Liste de dictionnaires contenant les informations des livres.
